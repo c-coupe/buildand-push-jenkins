@@ -1,6 +1,6 @@
 node {
-
    def registryProjet='ccoupe/'
+   
    def IMAGE="${registryProjet}app:${version}"
 
     stage('Clone') {
